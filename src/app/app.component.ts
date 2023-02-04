@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lifecycle';
+
+  mostrar: boolean = true;
+
+  onClick() {
+    this.mostrar = !this.mostrar;
+  }
 }
